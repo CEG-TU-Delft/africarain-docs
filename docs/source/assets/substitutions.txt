@@ -1,0 +1,7 @@
+.. |example| image:: _static/img/qgis2.png
+   :width: 1.5em
+
+.. |ltb| image:: _static/img/ltb.png
+   :width: 1.3em
+
+.. |saveEdits| image:: _static/img/mActionSaveEdits.png
