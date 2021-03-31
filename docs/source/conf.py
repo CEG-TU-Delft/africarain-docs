@@ -23,12 +23,12 @@ sys.path.append(os.path.abspath("./_ext"))
 
 # -- Project information -----------------------------------------------------
 
-project = 'template'
-copyright = '2020, University of Twente'
+project = 'Africa Rain Documentation'
+copyright = '202, Technical University Delft'
 author = 'Manuel G. Garcia'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '0.0.1'
 show_authors = True
 
 

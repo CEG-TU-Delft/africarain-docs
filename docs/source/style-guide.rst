@@ -1,7 +1,7 @@
 Styling Conventions
 ===================
 
-This document describe formatting and styling conversions addopted in the exercise of the online Core course. These conventions are based on Sphinx using ReStructed Text (RST).
+This document describe formatting and styling conversions for docummenting this project. These conventions are based on Sphinx using ReStructed Text (RST). 
 
 Sphinx provides a bigger variety of option to format content. However, for the sake of consistency and simplicity we only use a subset in these exercises.
 
