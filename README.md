@@ -7,7 +7,7 @@ User's Documentation.
 1. Clone the repository
 
 ``` shell
-git clone https://github.com/manuGil/sphinx-itc-template.git
+git clone https://github.com/CEG-TU-Delft/africarain-docs.git
 ```
 
 2. Go to the root of the repository and create a virtual environment
