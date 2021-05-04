@@ -1,4 +1,4 @@
-.. _processing:
+
 Data pre-processing
 ===================
 

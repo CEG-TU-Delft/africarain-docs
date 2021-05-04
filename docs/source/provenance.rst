@@ -1,6 +1,6 @@
 Production of raw data files
 ============================
-**Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the "Data pre-processing" :ref:`processing` section of this site.
+**Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the "Data pre-processing" section of this site.
 
 Raw data production
 -------------------
@@ -17,25 +17,27 @@ The amount of data produced is about 0.5 PB or, in more nostalgic terms, a pile 
 Model architecture
 ------------------
 The model used to produce these simulations is the Weather Research and Forecasting Model (WRF) V3.9.1.1 from the National Center for Atmospheric Research (NCAR). The WRF is “a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications.” For the African Rainfall project, the WRF produces simulations based on actual atmospheric conditions.
+
 ARP divides the African continent into over 35609 WRF modelling domains. For each domain of 50x50 cells, WRF is run on a personal computer of a volunteer, who shares spare computing resources via the WCG. It calculates episodes of two days’ worth of weather with output for every 15 minutes (193 total time steps each).
+
 Each WRF domain is triply nested.  Hence, it first calculates at a coarse resolution of 9km x 9km covering a  468km x 468km region with historical boundary conditions from NOAA's Global Forecast System (GFS-ANL).  Within the center of this domain, it calculates the next domain at the intermediate resolution of 3 km (156 km x 156 km) with the boundary conditions set by the coarser domain calculation. Finally, a domain of 52 km x 52km is calculated at the center of the intermediate domain. Vertically, the atmosphere is divided into 51 layers so that the output is produced on a 52x52x51 grid.
 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The following parameter values were used as inputs for the WRF model in order to produce the resulting simulation data.
 
-===============================  ===================       ==========================================================================================================================
+===============================  ========================  ===================================================================================================================================================
 PARAMETER                        VALUE                     DESCRIPTION
-===============================  ===================       ==========================================================================================================================
+===============================  ========================  ===================================================================================================================================================
 SIMULATION START DATE            2018-07-01_00:00:00       The date and time when the simulation commenced.
 WEST-EAST_GRID_DIMENSION         52                        Dimension of the grid in the West-East direction.
 SOUTH-NORTH_GRID_DIMENSION       52                        Dimension of the grid in the South-North direction.
 BOTTOM-TOP_GRID_DIMENSION        51                        Dimension of the grid in the vertical direction.
 DX                               9000.f                    Grid resolution in the X direction (m).
-DY                               9000.f                    Grid resoultion in the Y direction (m).
+DY                               9000.f                    Grid resolution in the Y direction (m).
 SKEBS_ON                         0                         Stochastic kinetic energy backskatter scheme.
 SPEC_BDY_FINAL_MU                1                         Whether to call spec_bdy_final for mu.
-USE_Q_DIABATIC                   0                         Whether to include QV and QC tendencies in advection (i.e. to consider moisture tendency from microphysics in small steps)
+USE_Q_DIABATIC                   0                         Whether to include QV and QC tendencies in advection (i.e. to consider moisture tendency from microphysics in small steps).
 GRIDTYPE                         C                         Type of grid used by the model.
 DIFF_OPT                         1                         Turbulence and mixing option.
 KM_OPT                           4                         Eddy coefficient option.
@@ -144,7 +146,7 @@ ISURBAN                          13                        Related to land use c
 ISOILWATER                       14                        Related to land use category.
 HYBRID_OPT                       -1                        Option related to the hybrid vertical coordinates.
 ETAC                             0.f                       Option related to the hybrid vertical coordinates.
-===============================  ===================       ==========================================================================================================================
+===============================  ========================  ===================================================================================================================================================
 
 Time period
 -----------
@@ -162,6 +164,11 @@ The domains used in the simulation have the following resolutions:
 + Domain 3: 1 km
 
 The centroid of each unit is separated by 15.3 minutes of arc in both latitude and longitude. Each unit partially overlaps with adjacent units; all domains contain 51 X 51 grid points. The model results are non-deterministic, so units were designed to overlap and create redundancy for a given geographic location, i.e., more than one value for an specific geographic location at a given time. These values were treated in the processed data available for download, to remove the overlapping values effect. More information about how this was done can be found in the "Data processing" section.
+
+Georeferencing information
+--------------------------
+
+The projection of the raw data is Lambert Conformal with the true latitudes 1 and 2 being 20 and 0 degrees, respectively. The standard longitude is 5 degrees.
 
 Variables in raw dataset
 ------------------------
@@ -191,8 +198,3 @@ OLR            Top of atmosphere outgoing longwave radiation                    
 SR             Fraction of frozen precipitation                                                      float          --             Yes
 SST            Sea surface temperature                                                               float          K              Yes
 =============  ====================================================================================  =============  =============  ===============
-
-Georeferencing information
---------------------------
-
-The projection of the raw data is Lambert Conformal with the true latitudes 1 and 2 being 20 and 0 degrees, respectively. The standard longitude is 5 degrees.
