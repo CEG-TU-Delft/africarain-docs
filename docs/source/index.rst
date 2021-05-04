@@ -16,8 +16,8 @@ Simulation data are made available for reuse under a __ license. For more inform
    :caption: Contents:
 
    about
-   provenance
    access
+   provenance
    data_processing
    citing
 
