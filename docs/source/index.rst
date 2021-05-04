@@ -15,8 +15,11 @@ For more information about the project and how to access the data, please see be
    :numbered:
    :caption: Contents:
 
-   style-guide
-   demo-page
+   about
+   provenance
+   access
+   data_processing
+   citing
 
 Attributions
 ------------
