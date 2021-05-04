@@ -18,8 +18,10 @@ Simulation data are made available for reuse under a __ license. For more inform
    about
    access
    provenance
+   input_values
    data_processing
    citing
+
 
 Attributions
 ------------
