@@ -1,5 +1,5 @@
-About the Africa Rainfall Project (ARP)
-=======================================
+About the Africa Rainfall Project
+=================================
 
 .. raw:: html
 
@@ -9,7 +9,7 @@ About the Africa Rainfall Project (ARP)
 
 Project goals
 -------------
-The goal of the African Rainfall Project is to derive accurate rainfall estimates over Sub-Saharan Africa, with the help of a high-resolution (1km) application of the Weather Research and Forecasting Model (WRF).  Such a resolution will allow the model to better represent rainfall, and in particular, convective precipitation. This is a unique experiment that has never been performed at such a scale. The model runs on the IBM World Community Grid (WCG), a SCR activity of IBM.
+The goal of the African Rainfall Project (ARP) is to derive accurate rainfall estimates over Sub-Saharan Africa, with the help of a high-resolution (1km) application of the Weather Research and Forecasting Model (WRF).  Such a resolution will allow the model to better represent rainfall, and in particular, convective precipitation. This is a unique experiment that has never been performed at such a scale. The model runs on the IBM World Community Grid (WCG), a SCR activity of IBM.
 
 These data can be used to:
 + Help scientists better understand these storms and improve forecasting models
@@ -18,7 +18,7 @@ These data can be used to:
 + Support resilience in the face of climate change
 
    *“The finer the grid we calculate with, the better we capture rainfall and convective (localized) rainstorms. But we’ve never been able to push that to the end—looking at weather patterns at a level of 500 meters to 1 kilometer. This is the first time we’ll be able to map huge parts of Africa for a whole rainy season, and has never been done before at this level of resolution. This is only possible because of the amount of computing power we'll have through World Community Grid.”*
-   - Nick van de Giesen, Principal Investigator
+|  - Nick van de Giesen, Principal Investigator
 
 The Weather Research and Forecasting Model (WRF)
 ------------------------------------------------

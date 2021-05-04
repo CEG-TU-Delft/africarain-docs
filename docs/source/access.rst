@@ -1,5 +1,5 @@
-How to access ARP data
-======================
+Accessing ARP data
+==================
 Data are netCDF files (netcdf 3 classic 64-bit)
 
 THREDDS server
