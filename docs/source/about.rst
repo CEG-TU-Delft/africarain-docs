@@ -5,6 +5,7 @@ About the Africa Rainfall Project (ARP)
 
    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/504903455?color=007e83&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+-----------------
 
 Project goals
 -------------
@@ -28,11 +29,10 @@ The Weather Research and Forecasting Model (WRF)
 
 The World Community Grid
 ------------------------
-The WRF model runs on the IBM World Community Grid (WCG) (https://www.worldcommunitygrid.org/research/arp1/overview.do)
+The WRF model runs on the `IBM World Community Grid (WCG). <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
 
 + Africa Rainfall Project: Project Overview on World Community Grid.org: https://www.worldcommunitygrid.org/research/arp1/overview.do
 + Join World Community Grid today so you and your computer can help accelerate this vitally important research. https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1
-+ Africa Rainfall Project launch video (English) https://vimeo.com/504903455
 
 
 ARP project news and updates
