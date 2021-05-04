@@ -1,15 +1,14 @@
 Metadata
 ========
 
-Title: Africa Rainfall Project Data
-Data format: netCDF3 64-bit offset
-Summary: Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
-Keywords: Africa, rainfall, precipitation, modeling
-Conventions: CF 1.8
-Projection: Lambert Conformal
-Source: Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
-Processing Level:
-License: This work is licensed under ___.
+| **Title:** Africa Rainfall Project Data
+| **Data format:** netCDF3 64-bit offset
+| **Summary:** Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
+| **Keywords:** Africa, rainfall, precipitation, modeling
+| **Conventions:v CF 1.8
+| **Projection:** Lambert Conformal
+| **Source:** Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
+| **License:** This work is licensed under ___.
 
 CF-1.8 Convention
 -----------------
