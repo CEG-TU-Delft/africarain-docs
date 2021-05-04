@@ -26,46 +26,46 @@ For more options when using ncdump, see `this webpage <https://www.unidata.ucar.
 
 You should see an output in your terminal with the following information:
 
-dimensions:
-   time =
-   lat =
-   lon =
-   DateStrLen = 19
-
-variables:
-
-// global attributes:
-   :title =
-   :summary =
-   :keywords =
-   :Conventions = "CF-1.8"
-   :naming_authority = "nl.tudelft"
-   :source = "WRF-V3.9.1.1"
-   :processing_level = "These data were processed from their original form. For more details, see ___"
-   :license =
-   :data_created =
-   :creator_name =
-   :institution = "TU Delft"
-   :project = "Africa Rainfall"
-   :contributor_names = ''
-   :projection = 'Lambert Conformal'
-   :geospatial_bounds =
-   :geospatial_bounds_crs =
-   :geospatial_bounds_vertical_crs = ''
-   :geospatial_lat_min = " " ;
-	 :geospatial_lat_max = " " ;
-   :geospatial_lat_units = 'degrees_north'
-   :geospatial_lat_resolution = ''
-	 :geospatial_lon_min = " " ;
-	 :geospatial_lon_max = " " ;
-   :geospatial_lon_units = 'degrees_east'
-   :geospatial_lon_resolution = ''
-   :geospatial_vertical_min = ''
-   :geospatial_vertical_max = ''
-   :time_coverage_start = ''
-   :time_coverage_end = ''
-   :time_coverage_duration = ''
-   :time_coverage_resolution = ''
-	 :cdm_data_type = "Grid" ;
-   :metadata_link = ''
-	 :references = "Link to documentation" ;
+|dimensions:
+|   time =
+|   lat =
+|   lon =
+|   DateStrLen = 19
+|
+|variables:
+|
+|// global attributes:
+|   :title =
+|   :summary =
+|   :keywords =
+|   :Conventions = "CF-1.8"
+|   :naming_authority = "nl.tudelft"
+|   :source = "WRF-V3.9.1.1"
+|   :processing_level = "These data were processed from their original form. For more details, see ___"
+|   :license =
+|   :data_created =
+|   :creator_name =
+|   :institution = "TU Delft"
+|   :project = "Africa Rainfall"
+|   :contributor_names = ''
+|   :projection = 'Lambert Conformal'
+|   :geospatial_bounds =
+|   :geospatial_bounds_crs =
+|   :geospatial_bounds_vertical_crs = ''
+|   :geospatial_lat_min = " " ;
+|	 :geospatial_lat_max = " " ;
+|   :geospatial_lat_units = 'degrees_north'
+|   :geospatial_lat_resolution = ''
+|	 :geospatial_lon_min = " " ;
+|	 :geospatial_lon_max = " " ;
+|   :geospatial_lon_units = 'degrees_east'
+|   :geospatial_lon_resolution = ''
+|   :geospatial_vertical_min = ''
+|   :geospatial_vertical_max = ''
+|   :time_coverage_start = ''
+|   :time_coverage_end = ''
+|   :time_coverage_duration = ''
+|   :time_coverage_resolution = ''
+|	 :cdm_data_type = "Grid" ;
+|   :metadata_link = ''
+|	 :references = "Link to documentation" ;
