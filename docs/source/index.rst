@@ -8,7 +8,7 @@ The African Rainfall Project: High resolution (1km) weather modeling at continen
 
 The African Rainfall Project derives accurate rainfall estimates over Sub-Saharan Africa, with the help of a high-resolution (1km) application of the Weather Research and Forecasting Model (WRF).
 
-For more information about the project and how to access the data, please see below.
+Simulation data are made available for reuse under a __ license. For more information about the project and how to access the data, please see below.
 
 .. toctree::
    :maxdepth: 2
