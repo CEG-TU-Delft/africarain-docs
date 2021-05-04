@@ -23,16 +23,16 @@ sys.path.append(os.path.abspath("./_ext"))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Africa Rain Documentation'
-copyright = '202, Technical University Delft'
-author = 'Manuel G. Garcia'
+project = 'Africa Rainfall Data Documentation'
+copyright = '2021, Technical University Delft'
+author = 'Ashley Cryan'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 show_authors = True
 
 
-# Name of the master document. 
+# Name of the master document.
 master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
