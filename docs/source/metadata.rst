@@ -21,7 +21,7 @@ The metadata for files that have been downloaded from this server can be found u
 
 Once you have the NCO programs installed, you can use the ncdump command to view the metadata for any netCDF file.
 
-```$ ncdump -h filename.nc``
+``$ ncdump -h filename.nc``
 
 For more options when using ncdump, see `this webpage <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_`.
 
