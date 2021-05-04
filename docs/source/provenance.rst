@@ -1,6 +1,6 @@
 Production of raw data files
 ============================
-**Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the "Data processing" section of this site.
+**Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the "Data pre-processing" :ref:`processing` section of this site.
 
 Raw data production
 -------------------
