@@ -2,17 +2,20 @@ Production of raw data files
 ============================
 **Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the `Production of procesed data files <https://africarain.readthedocs.io/en/latest/data_processing.html#production-of-processed-data-files>`_ section of this site.
 
-Raw data production
--------------------
-Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
+Raw simulation data production
+------------------------------
+Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid (see documentation on `The World Community Grid <https://africarain.readthedocs.io/en/latest/about.html#the-world-community-grid>`_).
 
-World Community Grid volunteer program
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-World Community Grid volunteers download a secure software program to their computer. When the computer is idle or not using its full computing power, it will run a simulated experiment in the background. Then, the computer contacts the World Community Grid server to let it know that it has completed the simulation, which is then uploaded to an IBM server. All of this happens unobtrusively.
+Forcing data
+------------
 
-World Community Grid receives the results volunteers send back (often called work units or research tasks), combines them with hundreds of thousands of results from other volunteers all over the world, and sends them to the Delft research team. The researchers then begin the difficult work of analyzing the data. While this process can take years, it accelerates that would otherwise take decades, or might even be impossible.
+Forcing data used as input for the simulation results come from:
+   
+   National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. 2015, updated daily. NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory.  
 
-The amount of data produced is about 0.5 PB or, in more nostalgic terms, a pile of floppy disks of over 1000 km. That pile would weigh over 6700 tons and would be over 1200 km high. About twenty variables of direct interest are stored and uploaded to the central WCG facility. These data are stored in netCDF files.
+From `rda.urcar.edu <https://rda.ucar.edu/datasets/ds083.3/#!description>`_: "These NCEP FNL (Final) operational global analysis and forecast data are on 0.25-degree by 0.25-degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses." 
+
+The data are available at https://rda.ucar.edu/datasets/ds083.3/#!description. Data are free but registration is required. 
 
 Model architecture
 ------------------

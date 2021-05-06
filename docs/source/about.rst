@@ -11,9 +11,7 @@ Project goals
 -------------
 The goal of the African Rainfall Project (ARP) is to derive accurate rainfall estimates over Sub-Saharan Africa, with the help of a high-resolution (1km) application of the Weather Research and Forecasting Model (WRF).  Such a resolution will allow the model to better represent rainfall, and in particular, convective precipitation.
 
-This is a unique experiment that has never been performed at such a scale. The model runs on the IBM World Community Grid (WCG), a SCR activity of IBM.
-
-These data can be used to:
+This is a unique experiment that has never been performed at such a scale. The model runs on the IBM World Community Grid (WCG), a SCR activity of IBM. These data can be used to:
 
 + Help scientists better understand these storms and improve forecasting models
 + Produce more accurate rainfall forecasts for sub-Saharan Africa
@@ -23,25 +21,36 @@ These data can be used to:
    *“The finer the grid we calculate with, the better we capture rainfall and convective (localized) rainstorms. But we’ve never been able to push that to the end—looking at weather patterns at a level of 500 meters to 1 kilometer.*
 
    *This is the first time we’ll be able to map huge parts of Africa for a whole rainy season, and has never been done before at this level of resolution. This is only possible because of the amount of computing power we'll have through World Community Grid.”*
+   
    - Nick van de Giesen, Principal Investigator
 
 The Weather Research and Forecasting Model (WRF)
 ------------------------------------------------
 
-These simulation data were produced using the Weather Research and Forecasting Model (WRF) from the National Center for Atmospheric Research Mesoscale & Microscale Meteorology Laboratory.
+These simulation data were produced using the Weather Research and Forecasting Model (WRF) from the National Center for Atmospheric Research (NCAR) Mesoscale & Microscale Meteorology Laboratory.
 
-From the `NCAR website: <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_ "The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. It features two dynamical cores, a data assimilation system, and a software architecture supporting parallel computation and system extensibility. The model serves a wide range of meteorological applications across scales from tens of meters to thousands of kilometers.
+From the `NCAR website: <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_ "The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications. 
 
-For researchers, WRF can produce simulations based on actual atmospheric conditions (i.e., from observations and analyses) or idealized conditions. WRF offers operational forecasting a flexible and computationally-efficient platform, while reflecting recent advances in physics, numerics, and data assimilation contributed by developers from the expansive research community. WRF is currently in operational use at NCEP and other national meteorological centers as well as in real-time forecasting configurations at laboratories, universities, and companies."
+It features two dynamical cores, a data assimilation system, and a software architecture supporting parallel computation and system extensibility. The model serves a wide range of meteorological applications across scales from tens of meters to thousands of kilometers.
 
-+ `The Weather Research and Forecasting Model <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_
+For researchers, WRF can produce simulations based on actual atmospheric conditions (i.e., from observations and analyses) or idealized conditions. WRF offers operational forecasting a flexible and computationally-efficient platform, while reflecting recent advances in physics, numerics, and data assimilation contributed by developers from the expansive research community. 
+
+WRF is currently in operational use at NCEP and other national meteorological centers as well as in real-time forecasting configurations at laboratories, universities, and companies."
+
++ Read more about `The Weather Research and Forecasting Model <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_
 
 
 The World Community Grid
 ------------------------
 The WRF model runs on the `IBM World Community Grid (WCG). <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
 
-+ Africa Rainfall Project: Project Overview on `The World Community Grid website <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
+World Community Grid volunteers download a secure software program to their computer. When the computer is idle or not using its full computing power, it will run a simulated experiment in the background. Then, the computer contacts the World Community Grid server to let it know that it has completed the simulation, which is then uploaded to an IBM server. All of this happens unobtrusively.
+
+World Community Grid receives the results volunteers send back (often called work units or research tasks), combines them with hundreds of thousands of results from other volunteers all over the world, and sends them to the Delft research team. The researchers then begin the difficult work of analyzing the data. While this process can take years, it accelerates that would otherwise take decades, or might even be impossible.
+
+The amount of data produced is about 0.5 PB or, in more nostalgic terms, a pile of floppy disks of over 1000 km. That pile would weigh over 6700 tons and would be over 1200 km high. About twenty variables of direct interest are stored and uploaded to the central WCG facility. These data are stored in netCDF files.
+
++ Africa Rainfall Project Overview on `The World Community Grid website <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
 + `Join The World Community Grid <https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1>`_ so you and your computer can help accelerate this vitally important research. 
 
 
