@@ -7,6 +7,7 @@ Raw simulation data production
 Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid (see documentation on `The World Community Grid <https://africarain.readthedocs.io/en/latest/about.html#the-world-community-grid>`_).
 
 The amount of raw simulation data produced is about 0.5 PB or, in more nostalgic terms, a pile of floppy disks of over 1000 km. That pile would weigh over 6700 tons and would be over 1200 km high. About twenty variables of direct interest are stored and uploaded to the central WCG facility. These data are stored in netCDF files.
+
 ---------------
 
 Forcing data
@@ -19,6 +20,7 @@ Forcing data used as input for the simulation results come from:
 From `rda.urcar.edu <https://rda.ucar.edu/datasets/ds083.3/#!description>`_: "These NCEP FNL (Final) operational global analysis and forecast data are on 0.25-degree by 0.25-degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses." 
 
 The data are available from UCAR `here <https://rda.ucar.edu/datasets/ds083.3/#!description>`_. Data are free but registration is required. 
+
 ---------------
 
 Model architecture
@@ -34,11 +36,13 @@ Finally, a unit of 52 km x 52km is calculated at the center of the intermediate 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 For a complete list of parameter values were used as inputs for the WRF model in order to produce the resulting simulation data, please see `Model input parameter values. <https://africarain.readthedocs.io/en/latest/input_values.html#model-input-parameter-values>`_
+
 ---------------
 
 Time period
 -----------
 The period of simulation data covered will ultimately run from 1 June 2018 until 31 May 2019. Raw simulation data are generated on rolling basis subject to volunteer participation. If the current pace continues, the dataset is expected to be complete in mid-2022. Simulation data are generated at a 15-minute time interval. 
+
 ---------------
 
 Units
@@ -53,12 +57,14 @@ The domains used in the simulation have the following resolutions:
 + Domain 3: 1 km
 
 The centroid of each unit is separated by 15.3 minutes of arc in both latitude and longitude. Each unit partially overlaps with adjacent units; all domains contain 51 X 51 grid points. The model results are non-deterministic, so units were designed to overlap and create redundancy for a given geographic location, i.e., more than one value for an specific geographic location at a given time. These values were treated in the processed data available for download, to remove the overlapping values effect. More information about how this was done can be found in `Production of processed data <file:///Users/acryan/Desktop/africarain-docs/docs/build/html/data_processing.html#production-of-processed-data-files>`_.
+
 ---------------
 
 Georeferencing information
 --------------------------
 
 The projection of the raw siulation data is Lambert Conformal with the true latitudes 1 and 2 being 20 and 0 degrees, respectively. The standard longitude is 5 degrees.
+
 ---------------
 
 Variables in raw simulation dataset

@@ -4,6 +4,7 @@ Accessing ARP data
 THREDDS server
 --------------
 Data are netCDF files (netcdf 3 classic 64-bit). Hosted at TU Delft. (URL)
+
 --------------
 
 Slicing data
@@ -16,6 +17,7 @@ Time
 ^^^^
 Suggest using NCO (link) and/or python.
 demo scripts for how to slice and pull data
+
 --------------
 
 Contact
