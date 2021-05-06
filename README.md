@@ -1,6 +1,6 @@
 # Africa Rain 
 
-User's Documentation.
+User's Documentation. Go to the [ReadTheDocs version](https://africarain.readthedocs.io/en/latest/)
 
 ## Installation:
 
