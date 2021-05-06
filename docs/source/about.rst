@@ -14,10 +14,11 @@ The goal of the African Rainfall Project (ARP) is to derive accurate rainfall es
 This is a unique experiment that has never been performed at such a scale. The model runs on the IBM World Community Grid (WCG), a SCR activity of IBM.
 
 These data can be used to:
-* Help scientists better understand these storms and improve forecasting models
-* Produce more accurate rainfall forecasts for sub-Saharan Africa
-* Give farmers more timely information about when to plant, help them obtain insurance
-* Support resilience in the face of climate change
+
++ Help scientists better understand these storms and improve forecasting models
++ Produce more accurate rainfall forecasts for sub-Saharan Africa
++ Give farmers more timely information about when to plant, help them obtain insurance
++ Support resilience in the face of climate change
 
    *“The finer the grid we calculate with, the better we capture rainfall and convective (localized) rainstorms. But we’ve never been able to push that to the end—looking at weather patterns at a level of 500 meters to 1 kilometer.*
 
@@ -33,28 +34,28 @@ From the `NCAR website: <https://www.mmm.ucar.edu/weather-research-and-forecasti
 
 For researchers, WRF can produce simulations based on actual atmospheric conditions (i.e., from observations and analyses) or idealized conditions. WRF offers operational forecasting a flexible and computationally-efficient platform, while reflecting recent advances in physics, numerics, and data assimilation contributed by developers from the expansive research community. WRF is currently in operational use at NCEP and other national meteorological centers as well as in real-time forecasting configurations at laboratories, universities, and companies."
 
-+ The Weather Research and Forecasting Model: https://www.mmm.ucar.edu/weather-research-and-forecasting-model
++ `The Weather Research and Forecasting Model <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_
 
 
 The World Community Grid
 ------------------------
 The WRF model runs on the `IBM World Community Grid (WCG). <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
 
-+ Africa Rainfall Project: Project Overview on World Community Grid.org: https://www.worldcommunitygrid.org/research/arp1/overview.do
-+ Join World Community Grid today so you and your computer can help accelerate this vitally important research. https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1
++ Africa Rainfall Project: Project Overview on `The World Community Grid website <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
++ `Join The World Community Grid <https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1>`_ so you and your computer can help accelerate this vitally important research. 
 
 
 ARP project news and updates
 ----------------------------
-+ Project news and updates: https://www.worldcommunitygrid.org/research/arp1/news.do
-+ Project statistics (data production and model runs) https://www.worldcommunitygrid.org/stat/viewProject.do?projectShortName=arp1
++ `Lastest news and updates on the ARP project from WCG <https://www.worldcommunitygrid.org/research/arp1/news.do>`_
++ `Project statistics (data production and model runs) <https://www.worldcommunitygrid.org/stat/viewProject.do?projectShortName=arp1>`_
 
 
 More resources
-----------------------
-+ Sensors to give early storm warnings to people near deadly lake https://www.newscientist.com/article/mg22830525-200-sensors-to-give-early-storm-warnings-to-people-near-deadly-lake/
-+ https://www.tudelft.nl/en/2018/citg/super-computing-power-for-rainfall-modelling-in-africa
-+ https://research.tudelft.nl/en/clippings/ibm-en-tu-delft-starten-africa-rainfall-project
-+ TAHMO Data Portal: https://portal.tahmo.org/login
-+ School2School program https://tahmo.org/school-2-school-initiative/ “Most of our stations are installed in schools where students and teachers have access to the weather stations and the data collected to use for their lessons. In addition the aim is to link African schools with partner schools in Europe and the United States to foster international school partnerships.”
-+ Ground-based data from the Trans-African Hydro-Meteorological Observatory (TAHMO): “TAHMO’s goal is to install 20,000 on-the-ground sensing stations every 30 km across the African continent, specifically designed to provide rainfall, temperature, and other critical data from robust redundant sensors. The data recorded every five minutes is sent via a cellular network near real time to a server where the data undergoes quality control before being made available on our online data portal for downloading” (https://tahmo.org/school-2-school-initiative/)
+--------------
++ Article (newscientist.com, 2015): `"Sensors to give early storm warnings to people near deadly lake" <https://www.newscientist.com/article/mg22830525-200-sensors-to-give-early-storm-warnings-to-people-near-deadly-lake/>`_
++ Article (TU Delft, 2018): `Super computing power for rainfall modelling in Africa <https://www.tudelft.nl/en/2018/citg/super-computing-power-for-rainfall-modelling-in-africa>`_
++ Article (bi-platform.nl, 2019): `IBM en TU Delft starten Africa Rainfall Project <https://biplatform.nl/2287829/ibm-en-tu-delft-starten-africa-rainfall-project.html>`_
++ Article (de Volkskrant, 2019): `Boeren in Afrika hebben jouw computer nodig voor hun weersvoorspellingen <https://www.volkskrant.nl/nieuws-achtergrond/boeren-in-afrika-hebben-jouw-computer-nodig-voor-hun-weersvoorspellingen~ba3f9754/?referer=https%3A%2F%2Fwww.tudelft.nl%2Fcitg%2Factueel%2Fin-de-media%2F&referrer=https%3A%2F%2Fresearch.tudelft.nl%2F>`_
++ Trans-African Hydro-Meteorological Observatory (TAHMO) `Data Portal <https://portal.tahmo.org/login>`_
++ `TAHMO School2School program <https://tahmo.org/school-2-school-initiative/>`_ 
