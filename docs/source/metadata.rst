@@ -1,14 +1,14 @@
 Metadata
 ========
 
-| **Title:** Africa Rainfall Project Data
-| **Data format:** netCDF3 64-bit offset
-| **Summary:** Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
-| **Keywords:** Africa, rainfall, precipitation, modeling
-| **Conventions:v CF 1.8
-| **Projection:** Lambert Conformal
-| **Source:** Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
-| **License:** This work is licensed under ___.
++ **Title:** Africa Rainfall Project Data
++ **Data format:** netCDF3 64-bit offset
++ **Summary:** Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
++ **Keywords:** Africa, rainfall, precipitation, modeling
++ **Conventions:** CF 1.8
++ **Projection:** Lambert Conformal
++ **Source:** Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
++ **License:** This work is licensed under ___.
 
 CF-1.8 Convention
 -----------------
@@ -24,7 +24,7 @@ Once you have the NCO programs installed, you can use the ncdump command to view
 
 For more options when using ncdump, see `this webpage <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_`.
 
-You should see an output in your terminal with the information below.
+You should see the output in your terminal containing the information below.
 
 File metadata
 -------------

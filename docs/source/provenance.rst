@@ -24,7 +24,7 @@ Each WRF domain is triply nested.  Hence, it first calculates at a coarse resolu
 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-For a complete list of parameter values were used as inputs for the WRF model in order to produce the resulting simulation data, please see the "Model input parameter values" section.
+For a complete list of parameter values were used as inputs for the WRF model in order to produce the resulting simulation data, please see `Model input parameter values. <https://africarain.readthedocs.io/en/latest/input_values.html#model-input-parameter-values>`_
 
 Time period
 -----------
