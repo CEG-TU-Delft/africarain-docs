@@ -17,8 +17,6 @@ Forcing data used as input for the simulation results come from:
    
    National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. 2015, updated daily. NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. DOI: 10.5065/D65Q4T4Z 
 
-From `rda.urcar.edu <https://rda.ucar.edu/datasets/ds083.3/#!description>`_: "These NCEP FNL (Final) operational global analysis and forecast data are on 0.25-degree by 0.25-degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses." 
-
 The data are available from UCAR `here <https://rda.ucar.edu/datasets/ds083.3/#!description>`_. Data are free but registration is required. 
 
 ---------------

@@ -24,4 +24,4 @@ Contact
 -------
 Processed data are available directly from the THREDDS URL listed above. Data must be cited appropriately and used in accordance with licensing requirements (see "Licensing and citation").
 
-Raw data files (see "Raw data generation" are available upon request from Nick van de Giesen, n.c.vandegiesen@tudelft.nl.
+Raw data files (see `Production of raw data files <https://africarain.readthedocs.io/en/latest/provenance.html#production-of-raw-data-files>`_ are available upon request from Nick van de Giesen, n.c.vandegiesen@tudelft.nl.
