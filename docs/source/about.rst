@@ -18,9 +18,9 @@ This is a unique experiment that has never been performed at such a scale. The m
 + Give farmers more timely information about when to plant, help them obtain insurance
 + Support resilience in the face of climate change
 |
-   *"This is the first time we’ll be able to map huge parts of Africa for a whole rainy season, and has never been done before at this level of resolution. This is only possible because of the amount of computing power we'll have through World Community Grid.”*
-   
-   \- Nick van de Giesen, Principal Investigator
+|   *"This is the first time we’ll be able to map huge parts of Africa for a whole rainy season, and has never been done before at this level of resolution. This is only possible because of the amount of computing power we'll have through World Community Grid.”*
+|  
+|   \- Nick van de Giesen, Principal Investigator
 ---------------
 
 The Weather Research and Forecasting Model (WRF)
