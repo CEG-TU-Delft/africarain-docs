@@ -6,24 +6,28 @@ Raw simulation data production
 ------------------------------
 Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid (see documentation on `The World Community Grid <https://africarain.readthedocs.io/en/latest/about.html#the-world-community-grid>`_).
 
+The amount of raw simulation data produced is about 0.5 PB or, in more nostalgic terms, a pile of floppy disks of over 1000 km. That pile would weigh over 6700 tons and would be over 1200 km high. About twenty variables of direct interest are stored and uploaded to the central WCG facility. These data are stored in netCDF files.
+
 Forcing data
 ------------
 
 Forcing data used as input for the simulation results come from:
    
-   National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. 2015, updated daily. NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory.  
+   National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. 2015, updated daily. NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. DOI: 10.5065/D65Q4T4Z 
 
 From `rda.urcar.edu <https://rda.ucar.edu/datasets/ds083.3/#!description>`_: "These NCEP FNL (Final) operational global analysis and forecast data are on 0.25-degree by 0.25-degree grids prepared operationally every six hours. This product is from the Global Data Assimilation System (GDAS), which continuously collects observational data from the Global Telecommunications System (GTS), and other sources, for many analyses." 
 
-The data are available at https://rda.ucar.edu/datasets/ds083.3/#!description. Data are free but registration is required. 
+The data are available from UCAR `here <https://rda.ucar.edu/datasets/ds083.3/#!description>`_. Data are free but registration is required. 
 
 Model architecture
 ------------------
-The model used to produce these simulations is the Weather Research and Forecasting Model (WRF) V3.9.1.1 from the National Center for Atmospheric Research (NCAR). The WRF is “a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting applications.” For the African Rainfall project, the WRF produces simulations based on actual atmospheric conditions.
+The model used to produce these simulations is the Weather Research and Forecasting Model (WRF) V3.9.1.1 from the National Center for Atmospheric Research (NCAR). 
 
-ARP divides the African continent into over 35609 WRF modelling domains. For each domain of 50x50 cells, WRF is run on a personal computer of a volunteer, who shares spare computing resources via the WCG. It calculates episodes of two days’ worth of weather with output for every 15 minutes (193 total time steps each).
+ARP divides the African continent into over 35609 WRF modelling units. For each unit of 50x50 cells, WRF is run on a personal computer of a volunteer, who shares spare computing resources via the WCG. It calculates episodes of two days’ worth of weather with output for every 15 minutes (193 total time steps each).
 
-Each WRF domain is triply nested.  Hence, it first calculates at a coarse resolution of 9km x 9km covering a  468km x 468km region with historical boundary conditions from NOAA's Global Forecast System (GFS-ANL).  Within the center of this domain, it calculates the next domain at the intermediate resolution of 3 km (156 km x 156 km) with the boundary conditions set by the coarser domain calculation. Finally, a domain of 52 km x 52km is calculated at the center of the intermediate domain. Vertically, the atmosphere is divided into 51 layers so that the output is produced on a 52x52x51 grid.
+Each WRF unit is triply nested.  Hence, it first calculates at a coarse resolution of 9km x 9km covering a 468km x 468km region with historical boundary conditions from NOAA's Global Forecast System (GFS-ANL).  Within the center of this domain, it calculates the next domain at the intermediate resolution of 3 km (156 km x 156 km) with the boundary conditions set by the coarser domain calculation. 
+
+Finally, a unit of 52 km x 52km is calculated at the center of the intermediate domain. Vertically, the atmosphere is divided into 51 layers so that the output is produced on a 52x52x51 grid.
 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -31,11 +35,11 @@ For a complete list of parameter values were used as inputs for the WRF model in
 
 Time period
 -----------
-The period of simulation data covered runs from 1 June 2018 until 31 May 2019. Raw simulation data are generated at a 15-minute time interval. Approximately 40% of total expected data have been created, if this pace continues the dataset will be complete in mid-2022.
+The period of simulation data covered will ultimately run from 1 June 2018 until 31 May 2019. Raw simulation data are generated on rolling basis subject to volunteer participation. If the current pace continues, the dataset is expected to be complete in mid-2022. Simulation data are generated at a 15-minute time interval. 
 
 Units
 -----
-Units define geographic areas for which simulations results are available or will be available. A total of 35.609 square units cover Sub-Saharan Africa.
+Units define geographic areas for which simulation results are available or will be available. A total of 35.609 square units cover Sub-Saharan Africa.
 For each unit, simulation results are produced at three spatial granularities called domains. Thus, a domain can also be described as a subset of a unit with a particular spatial resolution.
 
 The domains used in the simulation have the following resolutions:
@@ -44,15 +48,15 @@ The domains used in the simulation have the following resolutions:
 + Domain 2: 3 km
 + Domain 3: 1 km
 
-The centroid of each unit is separated by 15.3 minutes of arc in both latitude and longitude. Each unit partially overlaps with adjacent units; all domains contain 51 X 51 grid points. The model results are non-deterministic, so units were designed to overlap and create redundancy for a given geographic location, i.e., more than one value for an specific geographic location at a given time. These values were treated in the processed data available for download, to remove the overlapping values effect. More information about how this was done can be found in the "Data processing" section.
+The centroid of each unit is separated by 15.3 minutes of arc in both latitude and longitude. Each unit partially overlaps with adjacent units; all domains contain 51 X 51 grid points. The model results are non-deterministic, so units were designed to overlap and create redundancy for a given geographic location, i.e., more than one value for an specific geographic location at a given time. These values were treated in the processed data available for download, to remove the overlapping values effect. More information about how this was done can be found in `Production of processed data <file:///Users/acryan/Desktop/africarain-docs/docs/build/html/data_processing.html#production-of-processed-data-files>`_.
 
 Georeferencing information
 --------------------------
 
-The projection of the raw data is Lambert Conformal with the true latitudes 1 and 2 being 20 and 0 degrees, respectively. The standard longitude is 5 degrees.
+The projection of the raw siulation data is Lambert Conformal with the true latitudes 1 and 2 being 20 and 0 degrees, respectively. The standard longitude is 5 degrees.
 
-Variables in raw dataset
-------------------------
+Variables in raw simulation dataset
+-----------------------------------
 
 =============  ====================================================================================  =============  =============  ===============
 VARIABLE       DESCRIPTION                                                                           DATA TYPE      UNITS          GEOGRAPHIC DATA
