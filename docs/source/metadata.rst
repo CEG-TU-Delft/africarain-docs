@@ -33,7 +33,7 @@ From `cfconventions.org <http://cfconventions.org/Data/cf-conventions/cf-convent
 
 This standard is intended for use with climate and forecast data, for atmosphere, surface and ocean, and was designed with model-generated data particularly in mind."
 
-For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
++ For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
 
 Viewing file metdata with ncdump
 --------------------------------
@@ -43,7 +43,7 @@ Once you have the NCO programs installed, you can use the ncdump command to view
 
 ``$ ncdump -h filename.nc``
 
-For more options when using ncdump, see `this website from unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
++ For more options when using ncdump, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
 
 You should see the output in your terminal containing the information below.
 

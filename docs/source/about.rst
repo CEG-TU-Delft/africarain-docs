@@ -17,7 +17,7 @@ This is a unique experiment that has never been performed at such a scale. The m
 + Produce more accurate rainfall forecasts for sub-Saharan Africa
 + Give farmers more timely information about when to plant, help them obtain insurance
 + Support resilience in the face of climate change
-  
+|
 
    *“The finer the grid we calculate with, the better we capture rainfall and convective (localized) rainstorms. But we’ve never been able to push that to the end—looking at weather patterns at a level of 500 meters to 1 kilometer.*
 
@@ -48,7 +48,7 @@ The WCG relies on volunteers, who download a secure software program to their co
 World Community Grid receives the results volunteers send back (often called work units or research tasks), combines them with hundreds of thousands of results from other volunteers all over the world, and sends them to the Delft research team. The researchers then begin the difficult work of analyzing the data. While this process can take years, it accelerates that would otherwise take decades, or might even be impossible.
 
 + Africa Rainfall Project Overview on `The World Community Grid website <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
-+ `Join The World Community Grid <https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1>`_ so you and your computer can help accelerate this vitally important research. 
++ `Join The World Community Grid <https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1>`_ so you and your computer can help accelerate this important research
 
 
 ARP project news and updates
@@ -59,9 +59,9 @@ ARP project news and updates
 
 More resources
 --------------
-+ Article (newscientist.com, 2015): `"Sensors to give early storm warnings to people near deadly lake" <https://www.newscientist.com/article/mg22830525-200-sensors-to-give-early-storm-warnings-to-people-near-deadly-lake/>`_
-+ Article (TU Delft, 2018): `Super computing power for rainfall modelling in Africa <https://www.tudelft.nl/en/2018/citg/super-computing-power-for-rainfall-modelling-in-africa>`_
-+ Article (bi-platform.nl, 2019): `IBM en TU Delft starten Africa Rainfall Project <https://biplatform.nl/2287829/ibm-en-tu-delft-starten-africa-rainfall-project.html>`_
-+ Article (de Volkskrant, 2019): `Boeren in Afrika hebben jouw computer nodig voor hun weersvoorspellingen <https://www.volkskrant.nl/nieuws-achtergrond/boeren-in-afrika-hebben-jouw-computer-nodig-voor-hun-weersvoorspellingen~ba3f9754/?referer=https%3A%2F%2Fwww.tudelft.nl%2Fcitg%2Factueel%2Fin-de-media%2F&referrer=https%3A%2F%2Fresearch.tudelft.nl%2F>`_
++ Article (*newscientist.com*, 2015): `"Sensors to give early storm warnings to people near deadly lake" <https://www.newscientist.com/article/mg22830525-200-sensors-to-give-early-storm-warnings-to-people-near-deadly-lake/>`_
++ Article (*TU Delft*, 2018): `"Super computing power for rainfall modelling in Africa" <https://www.tudelft.nl/en/2018/citg/super-computing-power-for-rainfall-modelling-in-africa>`_
++ Article (*bi-platform.nl*, 2019): `"IBM en TU Delft starten Africa Rainfall Project" <https://biplatform.nl/2287829/ibm-en-tu-delft-starten-africa-rainfall-project.html>`_
++ Article (*de Volkskrant*, 2019): `"Boeren in Afrika hebben jouw computer nodig voor hun weersvoorspellingen" <https://www.volkskrant.nl/nieuws-achtergrond/boeren-in-afrika-hebben-jouw-computer-nodig-voor-hun-weersvoorspellingen~ba3f9754/?referer=https%3A%2F%2Fwww.tudelft.nl%2Fcitg%2Factueel%2Fin-de-media%2F&referrer=https%3A%2F%2Fresearch.tudelft.nl%2F>`_
 + Trans-African Hydro-Meteorological Observatory (TAHMO) `Data Portal <https://portal.tahmo.org/login>`_
 + `TAHMO School2School program <https://tahmo.org/school-2-school-initiative/>`_ 
