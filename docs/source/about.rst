@@ -35,7 +35,7 @@ For researchers, WRF can produce simulations based on actual atmospheric conditi
 WRF is currently in operational use at NCEP and other national meteorological centers as well as in real-time forecasting configurations at laboratories, universities, and companies."
 
 + Read more about `The Weather Research and Forecasting Model <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_
-
+---------------
 
 The World Community Grid
 ------------------------
@@ -47,13 +47,13 @@ World Community Grid receives the results volunteers send back (often called wor
 
 + Africa Rainfall Project Overview on `The World Community Grid website <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
 + `Join The World Community Grid <https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1>`_ so you and your computer can help accelerate this important research
-
+---------------
 
 ARP project news and updates
 ----------------------------
 + `Lastest news and updates on the ARP project from WCG <https://www.worldcommunitygrid.org/research/arp1/news.do>`_
 + `Project statistics (data production and model runs) <https://www.worldcommunitygrid.org/stat/viewProject.do?projectShortName=arp1>`_
-
+---------------
 
 More resources
 --------------
