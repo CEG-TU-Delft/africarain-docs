@@ -13,11 +13,11 @@ The goal of the African Rainfall Project (ARP) is to derive accurate rainfall es
 
 This is a unique experiment that has never been performed at such a scale. The model runs on the IBM World Community Grid (WCG), a SCR activity of IBM.
 
-| These data can be used to:
-| + Help scientists better understand these storms and improve forecasting models
-| + Produce more accurate rainfall forecasts for sub-Saharan Africa
-| + Give farmers more timely information about when to plant, help them obtain insurance
-| + Support resilience in the face of climate change
+These data can be used to:
+* Help scientists better understand these storms and improve forecasting models
+* Produce more accurate rainfall forecasts for sub-Saharan Africa
+* Give farmers more timely information about when to plant, help them obtain insurance
+* Support resilience in the face of climate change
 
    *“The finer the grid we calculate with, the better we capture rainfall and convective (localized) rainstorms. But we’ve never been able to push that to the end—looking at weather patterns at a level of 500 meters to 1 kilometer.*
 
