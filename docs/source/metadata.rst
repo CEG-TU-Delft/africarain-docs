@@ -1,18 +1,39 @@
-Metadata
-========
+File metadata
+=============
 
-+ **Title:** Africa Rainfall Project Data
-+ **Data format:** netCDF3 64-bit offset
-+ **Summary:** Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
-+ **Keywords:** Africa, rainfall, precipitation, modeling
-+ **Conventions:** CF 1.8
-+ **Projection:** Lambert Conformal
-+ **Source:** Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
-+ **License:** This work is licensed under ___.
+| **Title:**
+| Africa Rainfall Project Data
+|
+| **Data format:**
+| netCDF3 64-bit offset
+|
+| **Summary:**
+| Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
+|
+| **Keywords:**
+| Africa, rainfall, precipitation, modeling
+|
+| **Conventions:** 
+| CF 1.8
+|
+| **Projection:** 
+| Lambert Conformal
+|
+| **Source:** 
+| Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
+|
+| **License:** 
+| This work is licensed under [LICENSE]
 
 CF-1.8 Convention
 -----------------
-http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.htm
+These data conform to CF convention 1.8. 
+
+From `cfconventions.org <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#_abstract>`_: "The purpose of the CF conventions is to require conforming datasets to contain sufficient metadata that they are self-describing in the sense that each variable in the file has an associated description of what it represents, including physical units if appropriate, and that each value can be located in space (relative to earth-based coordinates) and time.
+
+This standard is intended for use with climate and forecast data, for atmosphere, surface and ocean, and was designed with model-generated data particularly in mind."
+
+For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
 
 Viewing file metdata with ncdump
 --------------------------------
@@ -22,7 +43,7 @@ Once you have the NCO programs installed, you can use the ncdump command to view
 
 ``$ ncdump -h filename.nc``
 
-For more options when using ncdump, see `this webpage <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_`.
+For more options when using ncdump, see `this website from unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
 
 You should see the output in your terminal containing the information below.
 
