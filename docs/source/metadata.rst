@@ -37,7 +37,9 @@ These data conform to CF convention 1.8.
 
 Viewing file metdata with ncdump
 --------------------------------
-The metadata for files that have been downloaded from this server can be found using multiple tools specific for working with netCDF files. One recommended tool for viewing this metadata and working with netCDF files in general is a set of command line programs called the NetCDF Operators (NCO). These can be downloaded from http://nco.sourceforge.net/ and installed following instructions on that page.
+The metadata for files that have been downloaded from this server can be found using multiple tools specific to working with netCDF files. 
+
+One recommended tool for viewing this metadata and working with netCDF files in general is a set of command line programs called the NetCDF Operators (NCO). These can be downloaded from http://nco.sourceforge.net/ and installed following instructions on that page.
 
 Once you have the NCO programs installed, you can use the ncdump command to view the metadata for any netCDF file.
 
@@ -45,12 +47,11 @@ Once you have the NCO programs installed, you can use the ncdump command to view
 
 + For more options when using ncdump, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
 
-You should see the output in your terminal containing the information below.
-
 ---------------
 
 File metadata
 -------------
+*These values will be returned as output in your terminal in response to the ncdump command*
 
 | dimensions:
 |   time =
