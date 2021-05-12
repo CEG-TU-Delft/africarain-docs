@@ -1,6 +1,6 @@
-# Africa Rain 
+# Africa Rainfall Data documentation 
 
-User's Documentation. Go to the [ReadTheDocs version](https://africarain.readthedocs.io/en/latest/)
+User-facing documentation for Africa Rainfall project data. Go to the [ReadTheDocs version](https://africarain.readthedocs.io/en/latest/)
 
 ## Installation:
 
