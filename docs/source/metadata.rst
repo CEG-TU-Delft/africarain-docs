@@ -13,6 +13,9 @@ File metadata
 | **Keywords:**
 | Africa, rainfall, precipitation, modeling
 |
+| **Institution:**
+| TU Delft
+|
 | **Conventions:**
 | CF 1.8
 |
@@ -46,53 +49,3 @@ Once you have the NCO programs installed, you can use the ncdump command to view
 ``$ ncdump -h filename.nc``
 
 + For more options when using ncdump, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
-
----------------
-
-File metadata
--------------
-*These values will be returned as output in your terminal in response to the ncdump command*
-
-| dimensions:
-|   time =
-|   lat =
-|   lon =
-|   DateStrLen = 19
-|
-| variables:
-|
-| // global attributes:
-|   \:title =
-|   \:summary =
-|   \:keywords =
-|   \:Conventions = "CF-1.8"
-|   \:naming_authority = "nl.tudelft"
-|   \:source = "WRF-V3.9.1.1"
-|   \:processing_level = "These data were processed from their original form. For more details, see ___"
-|   \:license =
-|   \:data_created =
-|   \:creator_name =
-|   \:institution = "TU Delft"
-|   \:project = "Africa Rainfall"
-|   \:contributor_names = ''
-|   \:projection = 'Lambert Conformal'
-|   \:geospatial_bounds =
-|   \:geospatial_bounds_crs =
-|   \:geospatial_bounds_vertical_crs = ''
-|   \:geospatial_lat_min = " " ;
-|   \:geospatial_lat_max = " " ;
-|   \:geospatial_lat_units = 'degrees_north'
-|   \:geospatial_lat_resolution = ''
-|	 \:geospatial_lon_min = " " ;
-|	 \:geospatial_lon_max = " " ;
-|   \:geospatial_lon_units = 'degrees_east'
-|   \:geospatial_lon_resolution = ''
-|   \:geospatial_vertical_min = ''
-|   \:geospatial_vertical_max = ''
-|   \:time_coverage_start = ''
-|   \:time_coverage_end = ''
-|   \:time_coverage_duration = ''
-|   \:time_coverage_resolution = ''
-|	 \:cdm_data_type = "Grid" ;
-|   \:metadata_link = ''
-|	 \:references = "Link to documentation" ;
