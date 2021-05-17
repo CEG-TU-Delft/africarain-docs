@@ -5,7 +5,7 @@ THREDDS server
 --------------
 Data are stored as netCDF files (netCDF 3 classic 64-bit), hosted at TU Delft. To access these data over the OPeNDAP protocol, use this URL: http://africarain.ceg.tudelft.nl:8080/thredds/catalog.html
 
-To work with these files on your local system via OPeNDAP, you first need to obtain an OPeNDAP-enabled client program. Some common client programs include NCO, MATLAB, R, ArcGIS, Python and others. Please see this `information page <https://psl.noaa.gov/data/gridded/using_dods.html>_` from the NOAA Physical Sciences Library for more information.
+To work with these files on your local system via OPeNDAP, you first need to obtain an OPeNDAP-enabled client program. Some common client programs include NCO, MATLAB, R, ArcGIS, Python and others. Please see this `information page <https://psl.noaa.gov/data/gridded/using_dods.html>`_ from the NOAA Physical Sciences Library for more information.
 
 --------------
 
