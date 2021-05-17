@@ -3,6 +3,9 @@ Licensing and citation
 
 License
 -------
+
+.. figure:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
 These data are provided under a CC BY-NC 4.0 International license. Under this license, you are free to:
 
 + **Share** - copy and redistribute the material in any medium or format
