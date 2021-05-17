@@ -13,23 +13,23 @@ File metadata
 | **Keywords:**
 | Africa, rainfall, precipitation, modeling
 |
-| **Conventions:** 
+| **Conventions:**
 | CF 1.8
 |
-| **Projection:** 
+| **Projection:**
 | Lambert Conformal
 |
-| **Source:** 
+| **Source:**
 | Weather Research and Forecasting (WRF) Model V3.9.1.1 run on the IBM World Community Grid (WCG)
 |
-| **License:** 
-| This work is licensed under [LICENSE]
+| **License:**
+| This data is provided under a CC BY-NC 4.0 International license. Specific terms for sharing and use can be found at `creativecommons.org. <https://creativecommons.org/licenses/by-nc/4.0/>`_
 
 ---------------
 
 CF-1.8 Convention
 -----------------
-These data conform to CF convention 1.8. 
+These data conform to CF convention 1.8.
 
 + For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
 
@@ -37,7 +37,7 @@ These data conform to CF convention 1.8.
 
 Viewing file metdata with ncdump
 --------------------------------
-The metadata for files that have been downloaded from this server can be found using multiple tools specific to working with netCDF files. 
+The metadata for files that have been downloaded from this server can be found using multiple tools specific to working with netCDF files.
 
 One recommended tool for viewing this metadata and working with netCDF files in general is a set of command line programs called the NetCDF Operators (NCO). These can be downloaded from http://nco.sourceforge.net/ and installed following instructions on that page.
 

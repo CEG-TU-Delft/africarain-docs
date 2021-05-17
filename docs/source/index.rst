@@ -8,7 +8,10 @@ The African Rainfall Project: High resolution (1km) weather modeling at continen
 
 The African Rainfall Project derives accurate rainfall estimates over Sub-Saharan Africa, with the help of a high-resolution (1km) application of the Weather Research and Forecasting Model (WRF) running on the IBM World Community Grid.
 
-Simulation data are made available for reuse under a [LICENSE]. For more information about the project and how to access the data, please see below.
+Simulation data are made available for reuse under a CC BY-NC 4.0 International license. For more information about the project and how to access the data, please see below.
+
+.. image:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/
+   :align: left
 
 .. toctree::
    :maxdepth: 2
