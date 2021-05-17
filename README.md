@@ -14,7 +14,7 @@ git clone https://github.com/CEG-TU-Delft/africarain-docs.git
 2. Go to the root of the repository and create a virtual environment
 
 ``` shell
-$ cd .../sphinx-itc-template
+$ cd africarain-docs
 $ python3 -m venv ./venv
 ```
 
