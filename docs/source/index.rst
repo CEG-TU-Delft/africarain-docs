@@ -6,8 +6,8 @@
 The African Rainfall Project: High resolution (1km) weather modeling at continental scale thanks to the World Community Grid
 ============================================================================================================================
 
-.. image:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
-   :align: left
+.. figure:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
 
 The African Rainfall Project derives accurate rainfall estimates over Sub-Saharan Africa, with the help of a high-resolution (1km) application of the Weather Research and Forecasting Model (WRF) running on the IBM World Community Grid.
 
