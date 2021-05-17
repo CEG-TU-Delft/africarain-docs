@@ -3,7 +3,7 @@
 User-facing documentation for Africa Rainfall project data. This documentation is hosted at [africarain.readthedocs.io](https://africarain.readthedocs.io/en/latest/).
 
 ## Installation:
-These steps are required to edit files locally and publish to the Read The Docs site.
+These steps are required to edit files locally and publish to the Read The Docs site. Changes made directly in GitHub via the browser will also be reflected on the readthedocs site after a few minutes.
 
 1. Clone the repository
 
