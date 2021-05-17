@@ -13,6 +13,8 @@ Simulation data are made available for reuse under a CC BY-NC 4.0 International 
 .. image:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
    :align: left
 
+-------------
+
 .. toctree::
    :maxdepth: 2
    :numbered:
