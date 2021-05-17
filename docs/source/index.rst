@@ -10,7 +10,7 @@ The African Rainfall Project derives accurate rainfall estimates over Sub-Sahara
 
 Simulation data are made available for reuse under a CC BY-NC 4.0 International license. For more information about the project and how to access the data, please see below.
 
-.. image:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/
+.. image:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
    :align: left
 
 .. toctree::
