@@ -14,22 +14,24 @@ Forcing data
 ------------
 
 Forcing data used as input for the simulation results come from:
-   
-   National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. 2015, updated daily. NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. DOI: 10.5065/D65Q4T4Z 
 
-The data are available from UCAR `here <https://rda.ucar.edu/datasets/ds083.3/#!description>`_. Data are free but registration is required. 
+   National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. 2015, updated daily. NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids. Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory. DOI: 10.5065/D65Q4T4Z
+
+The data are available from UCAR `here <https://rda.ucar.edu/datasets/ds083.3/#!description>`_. Data are free but registration is required.
 
 ---------------
 
 Model architecture
 ------------------
-The model used to produce these simulations is the Weather Research and Forecasting Model (WRF) V3.9.1.1 from the National Center for Atmospheric Research (NCAR). 
+The model used to produce these simulations is the Weather Research and Forecasting Model (WRF) V3.9.1.1 from the National Center for Atmospheric Research (NCAR).
 
 ARP divides the African continent into over 35609 WRF modelling units. For each unit of 50x50 cells, WRF is run on a personal computer of a volunteer, who shares spare computing resources via the WCG. It calculates episodes of two days’ worth of weather with output for every 15 minutes (193 total time steps each).
 
-Each WRF unit is triply nested.  Hence, it first calculates at a coarse resolution of 9km x 9km covering a 468km x 468km region with historical boundary conditions from NOAA's Global Forecast System (GFS-ANL).  Within the center of this domain, it calculates the next domain at the intermediate resolution of 3 km (156 km x 156 km) with the boundary conditions set by the coarser domain calculation. 
+Each WRF unit is triply nested.  Hence, it first calculates at a coarse resolution of 9km x 9km covering a 468km x 468km region with historical boundary conditions from NOAA's Global Forecast System (GFS-ANL).  Within the center of this domain, it calculates the next domain at the intermediate resolution of 3 km (156 km x 156 km) with the boundary conditions set by the coarser domain calculation.
 
 Finally, a unit of 52 km x 52km is calculated at the center of the intermediate domain. Vertically, the atmosphere is divided into 51 layers so that the output is produced on a 52x52x51 grid.
+
+.. figure:: https://gitlab.tudelft.nl/dcc-van-de-giesen/african-rainfall/-/wikis/uploads/_img/spatial-granularity.png
 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,7 +41,7 @@ For a complete list of parameter values were used as inputs for the WRF model in
 
 Time period
 -----------
-The period of simulation data covered will ultimately run from 1 June 2018 until 31 May 2019. Raw simulation data are generated on rolling basis subject to volunteer participation. If the current pace continues, the dataset is expected to be complete in mid-2022. Simulation data are generated at a 15-minute time interval. 
+The period of simulation data covered will ultimately run from 1 June 2018 until 31 May 2019. Raw simulation data are generated on rolling basis subject to volunteer participation. If the current pace continues, the dataset is expected to be complete in mid-2022. Simulation data are generated at a 15-minute time interval.
 
 ---------------
 
