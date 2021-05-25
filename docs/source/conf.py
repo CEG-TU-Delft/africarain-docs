@@ -28,7 +28,7 @@ copyright = '2021, Technical University Delft'
 author = 'Ashley Cryan'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '1.0.0'
 show_authors = True
 
 
@@ -56,21 +56,20 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['assets/ltb-links-gis.rst', 'assets/data-links-gis.rst',]
+exclude_patterns = ['assets/links.rst', 'demo-page.rst', 'style-guide.rst']
 
 # Allows storing external links in separated rst
 rst_epilog=""
 
 # Target link-files
-link_file = ['assets/ltb-links-gis.rst',
-            'assets/data-links-gis.rst',
+link_file = [
+            'assets/links.rst',
             'assets/substitutions.txt'
             ]
 # Read links in the from the target files
 for file in link_file:
     with open(file) as f:
         rst_epilog += f.read()
-
 
 
 # -- Options for HTML output -------------------------------------------------
