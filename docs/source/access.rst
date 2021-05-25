@@ -9,11 +9,16 @@ To work with these files on your local system via OPeNDAP, you first need to obt
 
 --------------
 
+Access ARP data using Python
+----------------------------
+
+This is an example of how to access data from the Africa Rain THREDDS server using Python. This relies on the netCDF4 library, a powerful library for working with netCDF data in general. 
+
 .. code-block:: python
 
    import netCDF4
 
-   # endpoint for specfic file
+   # endpoint for specific file
 
    url = 'https://africarain.ceg.tudelft.nl:9010/thredds/dodsC/demos/demo.nc'
 
