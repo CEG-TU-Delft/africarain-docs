@@ -9,6 +9,42 @@ To work with these files on your local system via OPeNDAP, you first need to obt
 
 --------------
 
+.. code-block:: python
+
+   import netCDF4
+
+   # endpoint for specfic file
+
+   url = 'https://africarain.ceg.tudelft.nl:9010/thredds/dodsC/demos/demo.nc'
+
+   # read dataset
+   nc = netCDF4.Dataset(url)
+
+   # read variables
+   ncv = nc.variables
+   print(ncv.keys())
+
+   # # subset and subsample
+   # lon = ncv['longitude'][10:-10:2,20:-10:2]
+   # lat = ncv['latitude'][10:-10:2,20:-10:2]
+
+   # read the nth time step
+   itime = 10
+   tair = ncv['air_temperature'][itime]
+
+   print(tair)
+
+   # pcolormesh(lon,lat,tair);
+   # colorbar();
+
+   '''
+   Other examples: https://publicwiki.deltares.nl/display/OET/Reading+data+from+OpenDAP+using+python
+   '''
+
+   #  other thredds server: http://dapds00.nci.org.au/thredds/catalog.html
+
+----------
+
 Contact
 -------
 Processed data are available directly from the THREDDS URL listed above. Data must be cited appropriately and used in accordance with licensing requirements (see `Licensing and citation <https://africarain.readthedocs.io/en/latest/citing.html>`_).
