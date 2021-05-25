@@ -17,10 +17,12 @@ This is a unique experiment that has never been performed at such a scale. The m
 + Produce more accurate rainfall forecasts for sub-Saharan Africa
 + Give farmers more timely information about when to plant, help them obtain insurance
 + Support resilience in the face of climate change
-|
-|   *"This is the first time we’ll be able to map huge parts of Africa for a whole rainy season, and has never been done before at this level of resolution. This is only possible because of the amount of computing power we'll have through World Community Grid.”*
-|  
-|   \- Nick van de Giesen, Principal Investigator
+
+
+
+   "This is the first time we’ll be able to map huge parts of Africa for a whole rainy season, and has never been done before at this level of resolution. This is only possible because of the amount of computing power we'll have through World Community Grid.”*
+   - Nick van de Giesen, Principal Investigator
+
 ---------------
 
 The Weather Research and Forecasting Model (WRF)
@@ -35,6 +37,7 @@ For researchers, WRF can produce simulations based on actual atmospheric conditi
 WRF is currently in operational use at NCEP and other national meteorological centers as well as in real-time forecasting configurations at laboratories, universities, and companies."
 
 + Read more about `The Weather Research and Forecasting Model <https://www.mmm.ucar.edu/weather-research-and-forecasting-model>`_
+
 ---------------
 
 The World Community Grid
@@ -47,12 +50,14 @@ World Community Grid receives the results volunteers send back (often called wor
 
 + Africa Rainfall Project Overview on `The World Community Grid website <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_
 + `Join The World Community Grid <https://www.worldcommunitygrid.org/join.action?projectToAdd=arp1>`_ so you and your computer can help accelerate this important research
+
 ---------------
 
 ARP project news and updates
 ----------------------------
 + `Lastest news and updates on the ARP project from WCG <https://www.worldcommunitygrid.org/research/arp1/news.do>`_
 + `Project statistics (data production and model runs) <https://www.worldcommunitygrid.org/stat/viewProject.do?projectShortName=arp1>`_
+
 ---------------
 
 More resources
