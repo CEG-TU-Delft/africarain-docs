@@ -31,7 +31,7 @@ Each WRF unit is triply nested.  Hence, it first calculates at a coarse resoluti
 
 Finally, a unit of 52 km x 52km is calculated at the center of the intermediate domain. Vertically, the atmosphere is divided into 51 layers so that the output is produced on a 52x52x51 grid.
 
-.. figure:: https://gitlab.tudelft.nl/dcc-van-de-giesen/african-rainfall/-/wikis/uploads/_img/spatial-granularity.png
+.. figure:: _static/img/spatial-granularity.png
 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
