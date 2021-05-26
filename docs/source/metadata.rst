@@ -34,7 +34,9 @@ CF-1.8 Convention
 -----------------
 These data conform to CF convention 1.8.
 
-+ For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
+.. note::
+   
+   For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
 
 ---------------
 
@@ -48,4 +50,6 @@ Once you have the NCO programs installed, you can use the ncdump command to view
 
 ``$ ncdump -h filename.nc``
 
-+ For more options when using ncdump, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
+.. note::
+
+   For more options when using ``ncdump``, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
