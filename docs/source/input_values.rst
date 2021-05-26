@@ -36,8 +36,8 @@ GRID_FDDA                        0                         Grid nudging option (
 GFDDA_INTERVAL_M                 0                         Time interval (minutes) vetween analyses for the grid nudging.
 GFDDA_END_H                      0                         Time (hours) to stop nudging after the start of the forecast.
 GRID_SFDDA                       0                         Surface FDDA switch (0 = off).
-SGFDDA_INTERVAL_M                0                         Time interval (minutes) between surface analsysis times.
-SGFDDA_END_H                     0                         Time (hours) to stop surface nudging after start of the forecast.
+SGFDDA_INTERVAL_M                0                         Time interval (minutes) between surface analysis times.
+SGFDDA_END_H                     0                         Time (hours) to stop surface nudging after the start of the forecast.
 HYPSOMETRIC_OPT                  2                         Hypsometric option.
 USE_THETA_M                      0                         Whether to use theta (1+1.61QV).
 GWD_OPT                          0                         Gravity wave drag option (0 = off).
