@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-The African Rainfall Project: High Resolution Weather Modeling at Continental Scale 
+The African Rainfall Project: High-Resolution Weather Modeling at Continental Scale 
 ============================================================================================================================
 
 .. figure:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
