@@ -3,7 +3,7 @@ Accessing ARP data
 
 THREDDS server
 --------------
-Data are stored as netCDF files (netCDF 3 classic 64-bit) on a THREDDS server hosted at TU Delft. These data can be accessed for anlysis purpose, using the OPeNDAP protocol. The main data catalog is available at: http://africarain.ceg.tudelft.nl:9010/thredds/catalog.html
+Data are stored as netCDF files (netCDF 3 classic 64-bit) on a THREDDS server hosted at TU Delft. These data can be accessed for anlysis purpose, using the OPeNDAP protocol. The main data catalog is available at: https://africarain.ceg.tudelft.nl:9010/thredds/catalog.html
 
 To work with these files on your local system via OPeNDAP, you first need to obtain an OPeNDAP-enabled client program. Some common client programs include NCO, MATLAB, R, ArcGIS, Python and others. Please see this `information page <https://psl.noaa.gov/data/gridded/using_dods.html>`_ from the NOAA Physical Sciences Library for more information.
 
