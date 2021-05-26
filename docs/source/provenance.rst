@@ -1,6 +1,6 @@
 Production of raw data files
 ============================
-**Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the `Production of procesed data files <https://africarain.readthedocs.io/en/latest/data_processing.html#production-of-processed-data-files>`_ section of this site.
+**Data available for download have been processed from their original raw form.** This page describes the generation of the raw simulation data, including which model and parameter values were used to generate it. Steps taken to produce the processed data are described in the :doc:`/data_processing` section.
 
 Raw simulation data production
 ------------------------------
@@ -63,7 +63,7 @@ The centroid of each unit is separated by 15.3 minutes of arc in both latitude a
 Georeferencing information
 --------------------------
 
-The projection of the raw siulation data is Lambert Conformal with the true latitudes 1 and 2 being 20 and 0 degrees, respectively. The standard longitude is 5 degrees.
+Raw datasets were produces using the **WRF Lambert Conformal** projection. For details consult the `WRF Model Manuals <https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_V3/contents.html>`_
 
 ---------------
 
