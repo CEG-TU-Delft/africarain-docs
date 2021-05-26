@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-The African Rainfall Project: High resolution (1km) weather modeling at continental scale thanks to the World Community Grid
+The African Rainfall Project: High-Resolution Weather Modeling at Continental Scale 
 ============================================================================================================================
 
 .. figure:: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
@@ -37,6 +37,6 @@ Attributions
 + Qidi Yu
 + Rick Hagenaars, Delft University of Technology, Data Analyst and Software Developer
 + John S. Selker, Oregon State University, Professor of Biological and Ecological Engineering
-+ World Community Grid
++ `World Community Grid <https://www.worldcommunitygrid.org/>`_
 + IBM Corporation
 + The Weather Company

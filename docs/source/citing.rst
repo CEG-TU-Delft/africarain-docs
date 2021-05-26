@@ -20,6 +20,8 @@ Read more about the terms of this license at `creativecommons.org. <https://crea
 
 ---------------
 
+
 How to cite these data
 ----------------------
-van de Giesen, N. (2021). The African Rainfall Project. http://africarain.ceg.tudelft.nl:8080/thredds/catalog.html. [DATE ACCESSED].
+
+van de Giesen, N. (2021). The African Rainfall Project. http://africarain.ceg.tudelft.nl:9010/thredds/catalog.html. [DATE ACCESSED].

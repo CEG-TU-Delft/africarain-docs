@@ -8,10 +8,10 @@ File metadata
 | netCDF3 64-bit offset
 |
 | **Summary:**
-| Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from World Community Grid.
+| Data are high-resolution computer simulations of localized rainstorms in sub-Saharan Africa produced using massive, crowd-sourced computing power from the World Community Grid.
 |
 | **Keywords:**
-| Africa, rainfall, precipitation, modeling
+| Africa, rainfall, precipitation, modelling
 |
 | **Institution:**
 | TU Delft
@@ -34,18 +34,22 @@ CF-1.8 Convention
 -----------------
 These data conform to CF convention 1.8.
 
-+ For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
+.. note::
+   
+   For more information about the CF conventions and specifications related to CF-1.8, please see `cfconventions.org. <http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html>`_
 
 ---------------
 
-Viewing file metdata with ncdump
---------------------------------
+Viewing file metadata with ncdump
+--------------------------------------
 The metadata for files that have been downloaded from this server can be found using multiple tools specific to working with netCDF files.
 
-One recommended tool for viewing this metadata and working with netCDF files in general is a set of command line programs called the NetCDF Operators (NCO). These can be downloaded from http://nco.sourceforge.net/ and installed following instructions on that page.
+One recommended tool for viewing this metadata and working with netCDF files, in general, is a set of command-line programs called the NetCDF Operators (NCO). These can be downloaded from http://nco.sourceforge.net/ and installed following instructions on that page.
 
-Once you have the NCO programs installed, you can use the ncdump command to view the metadata for any netCDF file.
+Once you have the NCO programs installed, you can use the ``ncdump`` command to view the metadata for any netCDF file.
 
 ``$ ncdump -h filename.nc``
 
-+ For more options when using ncdump, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
+.. note::
+
+   For more options when using ``ncdump``, see `unidata.ucar.edu <https://www.unidata.ucar.edu/software/netcdf/workshops/2011/utilities/NcdumpExamples.html>`_.
