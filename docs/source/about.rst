@@ -40,6 +40,8 @@ WRF is currently in operational use at NCEP and other national meteorological ce
 
 ---------------
 
+.. _community-grid:
+
 The World Community Grid
 ------------------------
 The WRF model runs on the `World Community Grid (WCG) <https://www.worldcommunitygrid.org/research/arp1/overview.do>`_, a SCR initiative of IBM.
