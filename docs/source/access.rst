@@ -29,7 +29,8 @@ This is an example of how to access data from the Africa Rain THREDDS server usi
    ncv = nc.variables
    print(ncv.keys())
 
-   # # subset and subsample
+   ## a subset of the data set can be retrieved using coordinate.
+   ## Use relevant coordinates for your dataset, the values below are just an example
    # lon = ncv['longitude'][10:-10:2,20:-10:2]
    # lat = ncv['latitude'][10:-10:2,20:-10:2]
 
@@ -37,22 +38,18 @@ This is an example of how to access data from the Africa Rain THREDDS server usi
    itime = 10
    tair = ncv['air_temperature'][itime]
 
+   # print data
    print(tair)
 
-   # pcolormesh(lon,lat,tair);
-   # colorbar();
+   ## Other examples: https://publicwiki.deltares.nl/display/OET/Reading+data+from+OpenDAP+using+python
+   
 
-   '''
-   Other examples: https://publicwiki.deltares.nl/display/OET/Reading+data+from+OpenDAP+using+python
-   '''
-
-   #  other thredds server: http://dapds00.nci.org.au/thredds/catalog.html
 
 ----------
 
 Contact
 -------
 
-Processed data will be available directly from the THREDDS URL listed above. Data must be cited appropriately and used in accordance with licensing requirements. See `Licensing and citation <https://africarain.readthedocs.io/en/latest/citing.html>`_.
+Processed data will be available directly from the THREDDS URL listed above. Data must be cited appropriately and used in accordance with licensing requirements. See :doc:`/citing`
 
-Raw data files (see `Production of raw data files <https://africarain.readthedocs.io/en/latest/provenance.html#production-of-raw-data-files>`_) are available upon request from Nick van de Giesen, n.c.vandegiesen@tudelft.nl.
+Raw data files (see :doc:`provenance`) are available upon request from Nick van de Giesen, n.c.vandegiesen@tudelft.nl.
