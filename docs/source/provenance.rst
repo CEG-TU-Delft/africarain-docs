@@ -35,7 +35,7 @@ Finally, a unit of 52 km x 52km is calculated at the centre of the intermediate 
 
 Model input parameter values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-For a complete list of parameter values that were used as inputs for the WRF model in order to produce the resulting simulation data, please see `Model input parameter values. See :doc:`input_values`
+For a complete list of parameter values that were used as inputs for the WRF model in order to produce the resulting simulation data, please see :doc:`input_values`.
 
 ---------------
 
